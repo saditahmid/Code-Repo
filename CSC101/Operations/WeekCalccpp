@@ -1,0 +1,18 @@
+#include<iostream>
+
+using namespace std;
+int main()
+{
+    int week,day,hour;
+    cout<<"enter any hour=";
+    cin>>hour;
+
+    week=hour/168;
+     day=(hour%168)/24;
+    hour=((hour%168)%24);
+
+    cout<< "Week is:" <<week<<endl;
+    cout<< "Day is:" <<day<<endl;
+    cout<< "Hour is:" <<hour<<endl;
+    return 0;   
+}
