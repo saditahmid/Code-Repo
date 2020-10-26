@@ -1,0 +1,13 @@
+#include<iostream>
+
+using namespace std;
+int main()
+{
+    float meter,feet;
+    cout<<"enter your height in meter:";
+    cin>>meter;
+
+    feet=3.28084*meter;
+    cout<<"Height in feet will be="<<feet<<endl;
+return 0;
+}
